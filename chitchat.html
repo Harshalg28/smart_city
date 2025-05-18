@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Rooms - MH13 Rooms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="chitchat.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MH13 Rooms</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="joinRoomBtn">Join Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="createRoomBtn" data-bs-toggle="modal" data-bs-target="#createRoomModal">Create Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">Profile</a>
+                    </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">home</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Combined Background Section -->
+    <section class="combined-background">
+        <div class="container">
+            <h1><strong>Join a Room, Talk Live!</strong></h1>
+            <button class="create-room-btn" id="createRoomBtn" data-bs-toggle="modal" data-bs-target="#createRoomModal">Create Room</button>
+            <h2><strong>Engage in Vibrant Conversations</strong></h2>
+            <p><strong>Find the perfect room to share your thoughts, ideas, and experiences with others.</strong></p>
+        </div>
+    </section>
+
+    <!-- Room List -->
+    <div class="container" id="roomList">
+        <div class="room">
+            <h5>Chill Zone</h5>
+            <p>Relax and have fun with friends in this casual chat room.</p>
+            <div class="room-section">
+                <h6>Subsection 1</h6>
+                <p>Chill and unwind.</p>
+            </div>
+            <div class="room-section">
+                <h6>Subsection 2</h6>
+                <p>Random talks and games.</p>
+            </div>
+            <button class="join-room-btn">Join Room</button>
+        </div>
+        
+    </div>
+        <!-- Room List -->
+        <div class="container" id="roomList">
+            
+            <div class="room">
+                <h5>Business Networking</h5>
+                <p>Connect with professionals and discuss business opportunities.</p>
+                <div class="room-section">
+                    <h6>Subsection 1</h6>
+                    <p>Share business ideas.</p>
+                </div>
+                <div class="room-section">
+                    <h6>Subsection 2</h6>
+                    <p>Networking events.</p>
+                </div>
+                <button class="join-room-btn">Join Room</button>
+            </div>
+        </div>
+    
+        <!-- Education Section -->
+        <div class="container" id="educationSection">
+            <div class="room">
+                <h5>Education Room</h5>
+                <p>Join the education room for study groups, discussions, and knowledge sharing.</p>
+                <div class="room-section">
+                    <h6>Subsection 1</h6>
+                    <p>Subject-wise discussions.</p>
+                </div>
+                <div class="room-section">
+                    <h6>Subsection 2</h6>
+                    <p>Tips and tricks for exam preparation.</p>
+                </div>
+                <button class="join-room-btn">Join Room</button>
+            </div>
+        </div>
+
+    <!-- Create Room Modal -->
+    <div class="modal fade" id="createRoomModal" tabindex="-1" aria-labelledby="createRoomModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="createRoomModalLabel">Create a New Room</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="createRoomForm">
+                        <div class="mb-3">
+                            <label for="roomId" class="form-label">Room ID</label>
+                            <input type="text" class="form-control" id="roomId" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="roomPassword" class="form-label">Password (optional)</label>
+                            <input type="password" class="form-control" id="roomPassword">
+                        </div>
+                        <button type="submit" class="btn btn-create-room">Create</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>© 2024 SoulMateSolapur. All rights reserved.</p>
+            <p>
+                <a href="./privacy.html">Privacy Policy</a> | 
+                <a href="./terms.html">Terms of Service</a>
+            </p>
+            <p>
+                Follow us: 
+                <a href="#" class="text-light">Facebook</a> | 
+                <a href="#" class="text-light">Twitter</a> | 
+                <a href="#" class="text-light">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

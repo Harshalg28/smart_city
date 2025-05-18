@@ -1,0 +1,257 @@
+
+     body {
+            margin: 0;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 249, 249);
+            font-family: 'Arial', sans-serif;
+      background-repeat: no-repeat;
+      height: 100vh;
+      margin: 0;
+        }
+
+    .navbar-brand {
+      color: black;
+      font-weight: bold;
+      font-size: x-large;
+      font-family: "Roboto Slab", serif;
+    }
+
+    .nav-item {
+      gap: 40px;
+      margin-left: 100px;
+    }
+
+    .nav-link.active {
+      margin-left: 20px;
+    }
+
+    .nav-item {
+      margin-left: 220px; 
+    }
+
+    .nav-link {
+      font-weight: bold;
+      color: black; 
+    }
+
+    .navbar-brand img {
+      margin-right: 10px; 
+    }
+
+    .navbar {
+      padding-right: 30px; 
+    }
+
+    .nav-item-2 {
+      margin-right: 50px;
+    }
+
+    .dropdown-item {
+      color: blue;
+    }
+
+    .facility {
+      color: blue;
+    }
+
+    .coaches-1 {
+      color: blue;
+    }
+
+    /* Footer Styles */
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      font-family: "Roboto Slab", serif;
+    }
+
+    .footer h2 {
+      margin-bottom: 20px;
+      font-size: 1.5em;
+      font-weight: bold;
+    }
+
+    .footer p {
+      margin: 10px 0;
+      font-size: 1em;
+    }
+
+    .footer a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .social-links a {
+      margin: 0 10px;
+      font-size: 1.2em;
+    }
+
+    /* New CSS for Coaches Section */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    .coach {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .coach img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .coach-info {
+      max-width: 600px;
+    }
+
+    .coach-info h2 {
+      margin: 0;
+      color: #333;
+    }
+
+    .coach-info p {
+      margin: 5px 0;
+      color: #666;
+    }
+
+    .header {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #fff;
+    }
+
+    h2 {
+      font-weight: bolder;
+    }
+    header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            background-image: url('https://via.placeholder.com/1200x400?text=Cricket+Image');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        .main-content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            z-index: 1;
+        }
+        .main-content div {
+            position: relative;
+            z-index: 2;
+        }
+        h1, h2 {
+            color: #fff;
+        }
+        .academy-summary {
+            margin: 20px 0;
+            background-color: black;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            position: relative;
+            color: #fff;
+        }
+        .academy-summary img {
+            width: 100%;
+            height: auto;
+            opacity: 0.3;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        .academy-summary-content {
+            position: relative;
+            z-index: 2;
+            background-color: white;
+            color: black;
+            font-weight: 500;
+            font-size: large;
+            font-weight: bolder;
+        }
+        .map-links {
+            margin: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .map-card {
+            flex: 1;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .map-card h3 {
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+        }
+        .map-card iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+        }
+        .motivational {
+            background-color:whitesmoke;
+            padding: 10px;
+            color: black;
+            border-radius: 8px;
+            text-align: center;
+            margin-top: 20px;
+            color: #fff;
+        }
+        .motivational{
+          color: black;
+        }
+        .academy-summary{
+          background-color: whitesmoke;
+        }

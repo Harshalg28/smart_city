@@ -1,0 +1,198 @@
+
+        body {
+            background-color: #000; 
+            color: #fff; 
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif; 
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #222; /* Dark gray for navbar */
+            padding: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #F0EB06; 
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .navbar-nav .nav-link {
+            font-size: 1.2rem;
+            margin: 0 15px;
+            color: #F0EB06; 
+            transition: color 0.3s ease;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .navbar-nav .nav-link:hover {
+            color: #fff; 
+        }
+        .navbar-toggler {
+            border-color: #F0EB06; 
+        }
+        .navbar-toggler-icon {
+            color: #F0EB06; 
+        }
+
+        /* Combined Background Section */
+        .combined-background {
+            background-image: url('./images/Screenshot\ 2024-09-19\ 184322.png');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 150px 0;
+            color: #fff;
+            position: relative;
+            margin-bottom: 50px;
+        }
+        .combined-background::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6); 
+            z-index: 1;
+        }
+        .combined-background h1, .combined-background h2, .combined-background p {
+            position: relative;
+            z-index: 2;
+        }
+        .combined-background h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .combined-background h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .combined-background p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .create-room-btn, .join-room-btn {
+            background-color: #F0EB06;
+            color: #000; 
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .create-room-btn:hover, .join-room-btn:hover {
+            background-color: #F9A825; 
+        }
+
+        /* Room Styling */
+        .room {
+            background-color: #333; 
+            color: #fff;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .room:hover {
+            transform: scale(1.05);
+        }
+        .room h5 {
+            color: #F0EB06; 
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        .room p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-family: 'Roboto', sans-serif; 
+        }
+        .room-section {
+            background-color: #444; 
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .room-section h6 {
+            font-size: 1.2rem;
+            color: #F0EB06; 
+            font-family: 'Montserrat', sans-serif; 
+        }
+
+        /* Modal Styling */
+        .modal-header, .modal-body {
+            background-color: #222;
+            color: #fff;
+        }
+        .modal-content {
+            border-radius: 15px;
+        }
+        .modal-footer .btn-create-room {
+            background-color: #F0EB06;
+            color: black;
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+            font-family: 'Montserrat', sans-serif; 
+        }
+        .modal-footer .btn-create-room:hover {
+            background-color: #F9A825;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .combined-background h1 {
+                font-size: 2rem;
+            }
+            .combined-background h2 {
+                font-size: 1.5rem;
+            }
+            .combined-background p {
+                font-size: 1.2rem;
+            }
+            .create-room-btn, .join-room-btn {
+                font-size: 1rem;
+                padding: 10px 20px;
+            }
+        }
+        footer {
+    background-color: #222; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+footer p {
+    margin: 0; 
+    padding: 5px 0; 
+}
+
+footer a {
+    color: #F0EB06; 
+    text-decoration: none; 
+    margin: 0 10px; 
+    transition: color 0.3s ease; 
+}
+
+footer a:hover {
+    color: #fff; 
+}
+
+/* Optional styling to ensure all content in the footer is centered */
+footer .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
